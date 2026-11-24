@@ -1,0 +1,49 @@
+.calico-menu-schedule {
+	clear: both;
+	padding: 12px 0;
+	border-top: 1px solid #dcdcde;
+}
+
+.calico-menu-schedule legend {
+	font-weight: 600;
+}
+
+.calico-menu-schedule .description {
+	margin: 4px 0;
+}
+
+.calico-menu-period {
+	min-width: 0;
+	border: 1px solid #dcdcde;
+	border-radius: 3px;
+	padding: 8px;
+	margin: 10px 0;
+}
+
+.calico-menu-period legend {
+	padding: 0 4px;
+}
+
+.calico-menu-rule,
+.calico-menu-period-actions {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	gap: 6px 10px;
+}
+
+.calico-menu-rule {
+	margin-bottom: 8px;
+}
+
+.calico-menu-rule input[aria-invalid="true"] {
+	border-color: #b32d2e;
+}
+
+.calico-menu-schedule .calico-menu-error {
+	color: #b32d2e;
+}
+
+.calico-menu-schedule [data-calico-action="add-period"] {
+	margin-top: 6px;
+}
